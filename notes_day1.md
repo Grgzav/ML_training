@@ -19,3 +19,21 @@ This happens by finding the sweet spot between simple (high bias) and complicate
 
 Normalizing values Turns numbers into z-scores so they have mean 0 and variance 1.
 This is common preprocessing in ML.
+
+# Day 1 Notes
+
+## What I built
+- normalize(): z-score scaling with safe std=0 handling
+- train_test_split_indices(): reproducible shuffle split using seed
+- rmse(): metric for regression error
+
+## What I understood (in my words)
+- Seed means:
+- Why we clamp test_size:
+- Why we test code:
+
+## One thing I struggled with
+- 
+
+## One question for the team on Day 1 at Proxy Foods
+- What split strategy do we use to avoid leakage? (e.g., by recipe_id, by panelist_id, time-based?)

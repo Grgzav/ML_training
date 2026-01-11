@@ -1,0 +1,4 @@
+recipe_id,grams,cost_eur,sodium_mg,protein_g,passes_sodium,passes_protein,passes_all,protein_per_eur
+101,56.2,0.33498,484.7,30.0,True,True,True,89.55758552749418
+102,78.8,0.272,12.74,16.5,True,True,True,60.66176470588235
+103,79.0,0.1816,393.02,3.0,True,False,False,16.519823788546255
